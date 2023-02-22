@@ -1,0 +1,111 @@
+*{
+    margin: 2px;
+}
+#header{
+    height: 1.52em;
+    background-color: pink;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+#searchBar{
+    width: 30em;
+}
+
+#type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+#movieResolution, #movieType, #videoType, #misc{
+    width: 20%;
+    height: 90%;
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#scrollMovie{
+    height: 10em;
+    background-color: pink;
+    border: 1px solid black;
+}
+#main{
+    height: 35em;
+    background-color: pink;
+    border: 1px solid black;
+    display: absolute;
+    
+}
+
+#description{
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 100%;
+}
+
+#categories{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    height: 5em;
+    border: 1px solid black;
+    background-color: purple;
+}
+
+#details{
+    height: 5em;
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+#resolution{
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#snapshots{
+    height: 15em;
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+
+#categoriesbtn, #subscribebtn, #emptybtn{
+    height: 3em;
+    background-color: greenyellow;
+}
+
+#ads{
+    height: 20em;
+    border: 1px solid black;
+}
+
+.resolution{
+    width: 10em;
+    height: 3em;
+    background-color: purple;
+    border-radius: 15px;
+    text-align: center;
+    color: wheat;
+}
+
+button :hover{
+    background-color: orange;
+}
+
+h3, h1{
+    padding: 20px;
+}
